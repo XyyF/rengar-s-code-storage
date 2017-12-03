@@ -1,5 +1,5 @@
 /**
- * 调用 import storage from './storagePage'
+ * 调用 import storage from './storagePack'
  * storage.localStorage.IMGDATA = [...]  // setter
  * storage.localStorage.IMGDATA // getter
  */
