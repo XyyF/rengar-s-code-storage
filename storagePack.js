@@ -39,7 +39,7 @@ function initStorage(storage, params) {
                         storage.setItem(key, JSON.stringify(val))
                     }
                 } catch (e) {
-                    // 空间不足
+                    // 空间不足，localStorage超出限额
                     if (e.name === 'QuotaExceededError' && storage.length) {
                         storage.clear()
                         storage.setItem(key, JSON.stringify(val))
@@ -53,6 +53,7 @@ function initStorage(storage, params) {
                 try {
                     value = JSON.parse(value)
                 } catch(e) {
+                    // 语法错误
                     if (e.name === 'SyntaxError') {
                         console.log(`can't parse ${key}: ${value}`)
                         value = undefined
