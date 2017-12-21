@@ -21,9 +21,11 @@
 
 <script>
     /**
+     * 配置：
      * 需要在app中引入dialog组件，并且添加ref="dialog"
      * 在mounted中：Vue.prototype.$dialog = this.$refs.dialog
-     * @example
+     *
+     * @example 示例
      * const dlg = this.$dialog.showDialog(DialogType.XXX, {studentId: 'aaabbc', studentName: '李小花'})
      * dlg.onOpen((dialogType) => {
      *     // do something ...
@@ -33,6 +35,8 @@
      *         // do something ...
      *     }
      * })
+     * 在content里添加弹窗的内容
+     * 在dialog_const.js中添加弹窗的ID和基本信息
      */
     import {Dialog} from 'meetin-sass-ui'
     import {DialogType, DialogStyle, componentConfigs} from './dialog_configs'
@@ -193,7 +197,7 @@
 </script>
 
 <style lang="scss" rel="stylesheet/scss">
-    @import "../../../../components/pc/styles/basic_const";
+    @import "./styles/basic_const";
 
     .normal-dialog {
         $input-space: 12px;

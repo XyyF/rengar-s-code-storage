@@ -29,7 +29,7 @@
      * price    红色的价格文字
      * unit     跟在输入框等元素后面的浅色文字，表示单位
      */
-    import {FormItem} from 'meetin-sass-ui'
+    import {FormItem} from 'element'
 
     export default {
         name: 'dlg-edit-line',
