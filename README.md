@@ -10,4 +10,5 @@
 - localStorage/sessionStorage封装,[链接](https://github.com/XyyF/rengar-s-code-storage/blob/master/src/jsFunction/storagePack.js)
 
  # vue
-- dialog: 基于element的dialog组件按需加载封装,[链接](https://github.com/XyyF/rengar-s-code-storage/blob/master/src/vue/dialog/index.vue)
+- dialog: [链接](https://github.com/XyyF/rengar-s-code-storage/blob/master/src/vue/dialog/index.vue)
+一款基于element的dialog组件异步按需加载封装策略

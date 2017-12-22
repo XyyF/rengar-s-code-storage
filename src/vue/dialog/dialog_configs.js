@@ -5,7 +5,7 @@ export const DialogType = {
     NONE: '0',
     LOADING: '1',
 
-    // 教材
+    // 教材-示例
     ADD_STORAGE: '101',
 }
 

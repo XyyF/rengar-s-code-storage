@@ -1,13 +1,13 @@
 <template>
     <el-dialog
-        class="normal-dialog"
-        :class="dialogClass"
-        :visible.sync="visible"
-        :close-on-click-modal="closeOnClickOutside"
-        :close-on-press-escape="closeOnClickOutside"
-        :title="dialogTitle"
-        @close="onClosed"
-        ref="dialog">
+            class="normal-dialog"
+            :class="dialogClass"
+            :visible.sync="visible"
+            :close-on-click-modal="closeOnClickOutside"
+            :close-on-press-escape="closeOnClickOutside"
+            :title="dialogTitle"
+            @close="onClosed"
+            ref="dialog">
         <component :is="contentComponentName"
                    :dialog-data="dialogData"
                    v-if="mountContent"
@@ -64,8 +64,11 @@
         name: 'normal-dialog',
         data() {
             return {
+                // content目录下组件名
                 contentComponentName: '',
+                // this.$showDialog传入的数据
                 dialogData: {},
+                // dialog标题
                 dialogTitle: '',
                 dialogClass: DialogStyle.TITLE_AT_LEFT,
                 currentDialogType: DialogType.NONE,
@@ -90,8 +93,9 @@
             }
         },
         computed: {
+            // 确认已挂载content下的组件
             mountContent() {
-                // pendding状态结束后才挂载组件，这样可以确保pendding状态中（contentComponentName是上次的值，loader还未回调），内容组件不会过早地触发了mounted事件
+                // 异步pendding状态结束后才挂载组件，这样可以确保pendding状态中（contentComponentName是上次的值，loader还未回调），内容组件不会过早地触发了mounted事件
                 return this.dialogState !== STATE_CLOSED && this.dialogState !== STATE_LOAD_PENNDING
             },
         },
@@ -100,6 +104,7 @@
             [loadingDialog.name]: loadingDialog,
         },
         methods: {
+            // 关闭弹窗
             close() {
                 this.visible = false
             },
@@ -133,6 +138,7 @@
 
                 return this.showDialogResult
             },
+            // 设置弹窗标题
             setTitle(title) {
                 this.dialogTitle = title
             },
@@ -163,18 +169,22 @@
                 this.dialogClass = config.dialogClass || DialogStyle.TITLE_AT_LEFT
                 this.contentComponentName = component.name
             },
-            onClosed() {
+            // 关闭弹窗并且销毁组件内容
+            async onClosed() {
                 this.dialogState = STATE_CLOSING
                 // 等待关闭动画结束。进入STATE_CLOSED状态，并销毁内容组件，下次再弹同一个框时才会调用内容组件的mounted
-                setTimeout(() => {
-                    if (this.dialogState === STATE_CLOSING) {
-                        this.dialogState = STATE_CLOSED
+                await Promise.all([
+                    timeoutPromise(320),
+                    () => {
+                        if (this.dialogState === STATE_CLOSING) {
+                            this.dialogState = STATE_CLOSED
 
-                        const currentDialogType = this.currentDialogType
-                        this.currentDialogType = DialogType.NONE;
-                        this.callCloseListeners(currentDialogType)
+                            const currentDialogType = this.currentDialogType
+                            this.currentDialogType = DialogType.NONE;
+                            this.callCloseListeners(currentDialogType)
+                        }
                     }
-                }, 320)
+                ])
             },
             callOpenListeners(dialogType) {
                 if (dialogType !== DialogType.LOADING) {
@@ -191,8 +201,14 @@
                 this.closeBundle = {};
 
                 listeners.forEach(fn => fn(dialogType, closeBundle))
-            }
+            },
         },
+    }
+
+    function timeoutPromise(duration) {
+        return new Promise(resolve => {
+            setTimeout(resolve, duration)
+        })
     }
 </script>
 
