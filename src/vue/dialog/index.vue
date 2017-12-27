@@ -38,7 +38,7 @@
      * 在content里添加弹窗的内容
      * 在dialog_const.js中添加弹窗的ID和基本信息
      */
-    import {Dialog} from 'meetin-sass-ui'
+    import {Dialog} from 'element-ui'
     import {DialogType, DialogStyle, componentConfigs} from './dialog_configs'
     import loadingDialog from './content/loading.vue'
 

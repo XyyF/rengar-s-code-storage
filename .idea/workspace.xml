@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b767f7ad-ff39-43a3-a02f-84eb81649b63" name="默认的" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vue/dialog/content/add_storage.vue" afterPath="$PROJECT_DIR$/src/vue/dialog/content/add_storage.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vue/dialog/dialog_configs.js" afterPath="$PROJECT_DIR$/src/vue/dialog/dialog_configs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jsFunction/attach_event.js" afterPath="$PROJECT_DIR$/src/jsFunction/attach_event.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jsFunction/vue_v-clickoutside.js" afterPath="$PROJECT_DIR$/src/jsFunction/vue_v-clickoutside.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vue/dialog/components/dlg_edit_line.vue" afterPath="$PROJECT_DIR$/src/vue/dialog/components/dlg_edit_line.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vue/dialog/index.vue" afterPath="$PROJECT_DIR$/src/vue/dialog/index.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="248">
-                <caret line="9" column="125" lean-forward="true" selection-start-line="9" selection-start-column="125" selection-end-line="9" selection-end-column="125" />
+              <first_editor relative-caret-position="378">
+                <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -35,37 +37,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vue/dialog/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="737">
-              <caret line="141" column="29" lean-forward="true" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="29" />
+            <state relative-caret-position="648">
+              <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding>
-                <element signature="e#3932#4977#0" expanded="false" />
-                <element signature="e#5122#5331#0" expanded="false" />
-                <element signature="e#5406#6084#0" expanded="false" />
-                <element signature="e#6144#6475#0" expanded="false" />
-                <element signature="e#7542#7823#0" expanded="false" />
+                <element signature="e#3928#4973#0" expanded="false" />
+                <element signature="e#5118#5327#0" expanded="false" />
+                <element signature="e#5402#6080#0" expanded="false" />
+                <element signature="e#6140#6471#0" expanded="false" />
+                <element signature="e#7538#7819#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dialog_configs.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vue/dialog/dialog_configs.js">
+      <file leaf-file-name="vue_v-clickoutside.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jsFunction/vue_v-clickoutside.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="1701">
+              <caret line="63" column="6" lean-forward="false" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loading.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vue/dialog/content/loading.vue">
+      <file leaf-file-name="storagePack.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/jsFunction/storagePack.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="215">
+              <caret line="38" column="65" lean-forward="true" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attach_event.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jsFunction/attach_event.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,23 +97,40 @@
         <entry file="file://$PROJECT_DIR$/src/vue/dialog/content/add_storage.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="81">
-              <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+              <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="dlg_edit_line.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vue/dialog/components/dlg_edit_line.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="837">
+              <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dlg_info_line.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vue/dialog/components/dlg_info_line.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -115,8 +154,16 @@
         <option value="$PROJECT_DIR$/dialog/dialog_configs.js" />
         <option value="$PROJECT_DIR$/src/vue/dialog/content/add_storage.vue" />
         <option value="$PROJECT_DIR$/src/vue/dialog/dialog_configs.js" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/vue/dialog/demo.vue" />
+        <option value="$PROJECT_DIR$/src/vue/dialog/demo.html" />
         <option value="$PROJECT_DIR$/src/vue/dialog/index.vue" />
+        <option value="$PROJECT_DIR$/src/vue/dialog/components/dlg_edit_line.vue" />
+        <option value="$PROJECT_DIR$/dist/demo.html" />
+        <option value="$PROJECT_DIR$/demo.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/jsFunction/attach_event.js" />
+        <option value="$PROJECT_DIR$/src/jsFunction/vue_v-clickoutside.js" />
       </list>
     </option>
   </component>
@@ -187,30 +234,7 @@
               <item name="rengar-s-code-storage" type="b2602c69:ProjectViewProjectNode" />
               <item name="rengar-s-code-storage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rengar-s-code-storage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rengar-s-code-storage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="dialog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rengar-s-code-storage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rengar-s-code-storage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="dialog" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rengar-s-code-storage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rengar-s-code-storage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
-              <item name="dialog" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="jsFunction" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,14 +251,19 @@
     <property name="node.js.selected.package.eslint" value="D:\1studyMaterials\html5\node.js\node_global\node_modules\eslint" />
     <property name="node.js.path.for.package.standard" value="$PROJECT_DIR$/../../node" />
     <property name="node.js.selected.package.standard" value="D:\1studyMaterials\html5\node.js\rengar_home_2\rengar_home\node_modules\eslint" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sass微服务/edu_saas_fe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hexo/XyyF.github.io/blog" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="SearchEverywhereHistoryKey" value="V&#9;ACTION&#9;ActivateVersionControlToolWindow" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\1studyMaterials\html5\node.js\测试文件\rengar-s-code-storage" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1studyMaterials\html5\node.js\测试文件\rengar-s-code-storage\src\vue\dialog" />
       <recent name="D:\1studyMaterials\html5\node.js\测试文件\rengar-s-code-storage\dialog\content" />
       <recent name="D:\1studyMaterials\html5\node.js\测试文件\rengar-s-code-storage\dialog" />
     </key>
@@ -269,15 +298,21 @@
       <workItem from="1512525788925" duration="813000" />
       <workItem from="1512568737073" duration="952000" />
       <workItem from="1513845131579" duration="1544000" />
-      <workItem from="1513905162122" duration="2743000" />
+      <workItem from="1513905162122" duration="3026000" />
+      <workItem from="1513952898987" duration="196000" />
+      <workItem from="1513995378827" duration="2437000" />
+      <workItem from="1513997929162" duration="4456000" />
+      <workItem from="1514089553099" duration="2129000" />
+      <workItem from="1514119571745" duration="630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9702000" />
+    <option name="totallyTimeSpent" value="19833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-581" y="-1448" width="2576" height="1456" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10992908" sideWeight="0.49293286" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -285,8 +320,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32685512" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32804233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5335689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.86042404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50706714" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -297,6 +332,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +363,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -336,7 +371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -358,7 +392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -380,7 +413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -402,7 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -427,7 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -439,7 +469,32 @@
     <entry file="file://$PROJECT_DIR$/dialog/content/add_storage.vue" />
     <entry file="file://$PROJECT_DIR$/dialog/components/dlg_info_line.vue" />
     <entry file="file://$PROJECT_DIR$/dialog/components/dlg_edit_line.vue" />
+    <entry file="file://$PROJECT_DIR$/src/vue/dialog/demo.js" />
+    <entry file="file://$PROJECT_DIR$/src/vue/dialog/dialog_configs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/ae45291982ce8c6a77be3c43d9826d4a.js" />
+    <entry file="file://$PROJECT_DIR$/src/vue/dialog/vue.js" />
     <entry file="file://$PROJECT_DIR$/src/vue/dialog/content/loading.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vue/dialog/content/add_storage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vue/dialog/components/dlg_info_line.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -447,44 +502,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/demo.html" />
+    <entry file="file://$PROJECT_DIR$/demo.html" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yarn.lock" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="248">
-            <caret line="9" column="125" lean-forward="true" selection-start-line="9" selection-start-column="125" selection-end-line="9" selection-end-column="125" />
+          <first_editor relative-caret-position="378">
+            <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vue/dialog/dialog_configs.js">
+    <entry file="file://$PROJECT_DIR$/src/vue/dialog/components/dlg_edit_line.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="837">
+          <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/vue/dialog/content/add_storage.vue">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="1476">
+          <caret line="1351" column="6" lean-forward="true" selection-start-line="1351" selection-start-column="6" selection-end-line="1351" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/vue/dialog/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="141" column="29" lean-forward="true" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="29" />
+        <state relative-caret-position="648">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
           <folding>
-            <element signature="e#3932#4977#0" expanded="false" />
-            <element signature="e#5122#5331#0" expanded="false" />
-            <element signature="e#5406#6084#0" expanded="false" />
-            <element signature="e#6144#6475#0" expanded="false" />
-            <element signature="e#7542#7823#0" expanded="false" />
+            <element signature="e#3928#4973#0" expanded="false" />
+            <element signature="e#5118#5327#0" expanded="false" />
+            <element signature="e#5402#6080#0" expanded="false" />
+            <element signature="e#6140#6471#0" expanded="false" />
+            <element signature="e#7538#7819#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jsFunction/vue_v-clickoutside.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1701">
+          <caret line="63" column="6" lean-forward="false" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jsFunction/attach_event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jsFunction/storagePack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="38" column="65" lean-forward="true" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>

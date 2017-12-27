@@ -1,3 +1,5 @@
+// on(document, 'mousedown', down)
+
 const on = (el, eventName, handle) => {
     if (!el || !eventName || !handle) {
         return null

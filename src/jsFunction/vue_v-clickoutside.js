@@ -51,7 +51,7 @@ export default {
                 el[ctx].method()
             }
         }
-        el.ctx = {
+        el[ctx] = {
             id,
             handleClickOutSide,
             method: binding.value,

@@ -11,4 +11,4 @@
 
  # vue
 - dialog: [链接](https://github.com/XyyF/rengar-s-code-storage/blob/master/src/vue/dialog/index.vue)
-一款基于element的dialog组件异步按需加载封装策略
+一款基于element+vue单页应用的dialog组件异步按需加载封装策略
