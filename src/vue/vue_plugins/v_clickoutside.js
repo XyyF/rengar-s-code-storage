@@ -1,4 +1,4 @@
-import {on, off} from './attach_event'
+import {on, off} from '../../jsFunction/attach_event'
 /**
  * vue单页应用中，directives引入，v-clickoutside自定义指令调用
  * <div v-clickoutside="handleClose">
