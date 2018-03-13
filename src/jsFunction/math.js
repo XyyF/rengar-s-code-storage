@@ -16,6 +16,16 @@ export class Math {
         }
     }
     /**
+     * 转换为number类型
+     * @param num
+     */
+    toNumber(num) {
+        if (typeof num === 'string') {
+            return Number(num)
+        }
+        return num
+    }
+    /**
      * 是否是整数(正数、负数)
      * @param num
      */
@@ -87,7 +97,7 @@ export class Math {
             console.error('Unknown number', num);
             return
         }
-        return Math.floor(num)
+        return Math.floor ? Math.floor(num) : parseInt(num, 10)
     }
     /**
      * 绝对值
@@ -98,7 +108,12 @@ export class Math {
             console.error('Unknown number', num);
             return
         }
-        return Math.abs(num)
+        const number = this.toNumber(num);
+        return Math.abs
+            ? Math.abs(number)
+            : String(number).replace(/^-/, function(value) {
+                return value ? -number : number
+            })
     }
 
     /* ******************************封装扩展方法**************************** */
