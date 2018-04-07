@@ -30,12 +30,23 @@ EventEmitter.prototype.$emit = function(type, ...args) {
 EventEmitter.prototype.$off = function(type, fn) {
     const handle = this._events.get(type)
     for (let i = 0; i < handle.length; i++) {
-        handle[i].apply(null, args)
+        if (handle[i] === fn) {
+            handle.splice(i, 1)
+            // 若为最后一个值，删除type
+            if (handle.length === 0) {
+                this._events.delete(type)
+            }
+            return
+        }
     }
 }
 
 
 // test
+const offFn = (man) => {
+    console.log(`kill ${man}`);
+}
+
 const emitter = new EventEmitter()
 
 emitter.$on('rengar', man => {
@@ -45,9 +56,12 @@ emitter.$on('rengar', man => {
     console.log(`save ${man}`);
 });
 
-emitter.$on('rengar', man => {
-    console.log(`kill ${man}`);
-});
+emitter.$on('rengar', offFn);
 
-// 触发事件
+// 触发事件 expel - save - kill
+emitter.$emit('rengar', 'low-end');
+
+emitter.$off('rengar', offFn);
+
+// 触发事件 expel - save
 emitter.$emit('rengar', 'low-end');

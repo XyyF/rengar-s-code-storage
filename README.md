@@ -9,6 +9,7 @@
 - 事件绑定,[链接](https://github.com/XyyF/rengar-s-code-storage/blob/master/src/jsFunction/attach_event.js)
 - localStorage/sessionStorage封装,[链接](https://github.com/XyyF/rengar-s-code-storage/blob/master/src/jsFunction/storagePack.js)
 - Math封装,[链接](https://github.com/XyyF/rengar-s-code-storage/blob/master/src/jsFunction/math.js)
+- Event-Bus,[链接](https://github.com/XyyF/rengar-s-code-storage/blob/master/src/jsFunction/event_bus.js)
 
  # vue
 - dialog: [链接](https://github.com/XyyF/rengar-s-code-storage/blob/master/src/vue/dialog/index.vue)
